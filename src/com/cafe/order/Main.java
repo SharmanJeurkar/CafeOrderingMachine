@@ -10,6 +10,7 @@ public class Main {
      TODO Use arrays to store the order
      TODO Show the total bill .......   (optional)
      FIXME Eliminate space while taking orders
+     FIXME Dynamically increase array length
      */
 
     public static void main(String[] args) {
@@ -21,10 +22,10 @@ public class Main {
         TakeOrder to = new TakeOrder();
         System.out.println("Please give your order from above items");
         do {
-            String c_order = sc.next();
+            String c_order = sc.nextLine();
             to.push(c_order);
             System.out.println("Do you want anything more?");
-            option = sc.next();
+            option = sc.nextLine();
             if (option.equalsIgnoreCase("yes")) {
 
                 System.out.println("Next....");
