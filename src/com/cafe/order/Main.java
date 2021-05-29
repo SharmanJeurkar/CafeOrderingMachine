@@ -22,7 +22,8 @@ public class Main {
         TakeOrder to = new TakeOrder();
         System.out.println("Please give your order from above items");
         do {
-            String c_order = sc.nextLine();
+            String c_order = sc.nextLine();/*.next() that is used for taking input without space */
+            //.nextLine() that accepts space
             to.push(c_order);
             System.out.println("Do you want anything more?");
             option = sc.nextLine();
