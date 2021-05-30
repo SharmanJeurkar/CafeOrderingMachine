@@ -1,11 +1,9 @@
 package com.cafe.order;
 
 
-import java.util.Scanner;
 
 public class MenuCard {
-    ShowArray abc = new ShowArray();
-    Scanner sc = new Scanner(System.in);
+
     String[] beverages = new String[4];
     String[] snacks = new String[4];
     String[] main_menu = new String[4];
@@ -37,24 +35,12 @@ public class MenuCard {
         {
             desserts[0] = "ice cream";
             desserts[1] = "gulabjam";
-            desserts[2] = "ras malai";
+            desserts[2] = "rasmalai";
             desserts[3] = "kulfi";
         }
 
-        System.out.println("Sir what would you like?- Beverages Snacks Main Menu Deserts");
-        String option = sc.nextLine();
-        if (option.equalsIgnoreCase("Beverages")) {
-            abc.showArray(beverages);
-        } else if (option.equalsIgnoreCase("Snacks")) {
-            abc.showArray(snacks);
-        } else if (option.equalsIgnoreCase("main menu")) {
-            abc.showArray(main_menu);
-        } else if (option.equalsIgnoreCase("Desserts")) {
-            abc.showArray(desserts);
-        } else {
-            System.out.println("Sir option not available");
-            System.exit(0);
-        }
+        Menu_Options mo = new Menu_Options();
+        mo.menu_option(beverages, snacks, main_menu, desserts);
 
     }
 
