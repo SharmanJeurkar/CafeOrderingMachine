@@ -8,5 +8,17 @@
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
+  </welcome-file-list><!-- OrderServlet -->
+  
+  <!-- OrderServlet -->
+  <servlet>
+  <servlet-name>order</servlet-name>
+  <servlet-class>com.cafe.order.OrderServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>order</servlet-name>
+  <url-pattern>/order</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
