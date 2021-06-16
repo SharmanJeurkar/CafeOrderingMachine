@@ -8,8 +8,36 @@
 </head>
 <body>
 
-<div>
-Pizza Paneer Noodles  Burger Roti 
+<div style="font:size=10px;">
+	Beverages
+	<li>Tea
+	<li>Coffee
+	<li>Ice-Tea
+	<li>Cold-Coffee
+</div>
+
+<divstyle="font:size=10px;">
+	Snacks
+	<li>Idli
+	<li>Dosa
+	<li>Pohe
+	<li>Upma
+</div>
+
+<div style="font:size=10px;">
+	Main menu
+	<li>Butter Roti
+	<li>Butter Naan
+	<li>Paneer Butter Masala
+	<li>Veg Kholapuri
+</div>
+
+<div style="font:size=10px;">
+	Desserts
+	<li>Ice-Cream
+	<li>GulabJam
+	<li>Ras Malai
+	<li>Galebi
 </div>
 <form action="order">
 
