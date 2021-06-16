@@ -20,13 +20,13 @@ String item3=(String)request.getAttribute("item3");
 String item4=(String)request.getAttribute("item4");
 String item5=(String)request.getAttribute("item5");
 
-if(item1 !=null) 
+if(item1 !=null &&  item1 !=" ") 
 	out.println("<br><li>"+item1);
   
-if(item2 !=null)
+if(item2 !=null &&  item2 !=" ")
 	out.println("<br><li>"+item2);
 
-if(item3 !=null) 
+if(item3 !=null && item3 !=" ") 
 	out.println("<br><li>"+item3);
 
 if(item4 !=null && item4 !=" ") 
@@ -37,6 +37,6 @@ if(item5!=null && item5 !=" ")
 
 out.print(" </body> </html>");
 %>
-
+<a href="Thanks.html">Confirm Order</a>
 </body>
 </html>
