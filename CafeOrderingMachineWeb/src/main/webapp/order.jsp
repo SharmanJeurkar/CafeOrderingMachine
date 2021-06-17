@@ -5,10 +5,13 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Order Page</title>
+<link rel="stylesheet" href="order.css">
 </head>
 <body>
 
+Order you dishes from below  menu.
 
+<br>
 <div class="menu_card">
 		<p class="title">**Menu**</p>
 	<div class="beverages">
@@ -53,8 +56,9 @@
 
 </div>
 
-<form action="order">
 
+<form action="order" class="form">
+<br>
 Item1 to order: <input type="text" name="item1"><br>
 <br>
 Item2 to order: <input type="text" name="item2"><br>
@@ -66,8 +70,8 @@ Item4 to order: <input type="text" name="item4"><br>
 Item5 to order: <input type="text" name="item5"><br>
 <br>
 
-<input type="submit" value="Place Order"><br>
+<input type="submit" value="Place Order" class="button"><br>
 </form>
-    
+
 </body>
 </html>
