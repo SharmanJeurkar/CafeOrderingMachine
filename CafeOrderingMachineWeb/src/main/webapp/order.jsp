@@ -8,37 +8,51 @@
 </head>
 <body>
 
-<div style="font:size=10px;">
-	Beverages
-	<li>Tea
-	<li>Coffee
-	<li>Ice-Tea
-	<li>Cold-Coffee
+
+<div class="menu_card">
+		<p class="title">**Menu**</p>
+	<div class="beverages">
+		Beverages
+		<li>Tea
+		<li>Coffee
+		<li>Ice-Tea
+		<li>Cold-Coffee
+	</div>
+	
+	<div class="snacks">
+		Snacks
+		<li>Idli
+		<li>Dosa
+		<li>Pohe
+		<li>Upma
+	</div>
+	
+	<div class ="starters">
+		Starters
+		<li>Tomato Soup
+		<li>Dry Manchurian
+		<li>Spring Roll
+		<li>Harabhara Kabab	
+	</div>
+	
+	<div class="main_menu">
+		Main menu
+		<li>Butter Roti
+		<li>Butter Naan
+		<li>Paneer Butter Masala
+		<li>Veg Kholapuri
+	</div>
+	
+	<div class="dessert">
+		Desserts
+		<li>Ice-Cream
+		<li>GulabJam
+		<li>Ras Malai
+		<li>Galebi
+	</div>
+
 </div>
 
-<divstyle="font:size=10px;">
-	Snacks
-	<li>Idli
-	<li>Dosa
-	<li>Pohe
-	<li>Upma
-</div>
-
-<div style="font:size=10px;">
-	Main menu
-	<li>Butter Roti
-	<li>Butter Naan
-	<li>Paneer Butter Masala
-	<li>Veg Kholapuri
-</div>
-
-<div style="font:size=10px;">
-	Desserts
-	<li>Ice-Cream
-	<li>GulabJam
-	<li>Ras Malai
-	<li>Galebi
-</div>
 <form action="order">
 
 Item1 to order: <input type="text" name="item1"><br>
