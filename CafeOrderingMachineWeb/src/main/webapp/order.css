@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+.menu_card{
+	font-size: 20px;
+	position: fixed;
+	top :250px;
+	left : 0px;
+	width: 700px;
+	height: 50px;
+	border: 5px solid maroon;
+	background-color: orange;
+    padding: 50px;
+    margin: 20px;
+}
+
+.title{
+	position: relative;
+    bottom: 80px; 
+   	text-align: center;
+    font-size: 25px;
+     
+  }
+.beverages{
+	position: absolute;
+	top : 30px;
+	left : 30px;
+	
+}
+
+.snacks{
+	position: absolute;
+	top : 30px;
+	left : 170px;
+	
+}
+
+.starters{
+	position: absolute;
+	top : 30px;
+	left : 260px;
+}
+
+.main_menu{
+	position: absolute;
+	top : 30px;
+	left : 440px;
+	
+}
+
+.dessert{
+	position: absolute;
+	top : 30px;
+	left : 650px;
+	
+}
