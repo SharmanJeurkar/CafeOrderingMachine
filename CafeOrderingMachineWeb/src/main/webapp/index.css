@@ -12,15 +12,16 @@ div{
 
 p{
     width: 300px;
-    padding: 50px;
-    margin-left: 300px;
-  	color: yellow;
+    padding: 10px;
+    background-color: #ebebeb;
+    margin-left: 0px;
+  	color: black;
 	font-size: 20px;
 	font-style: normal;
 }
 
 a:link, a:visited {
-  background-color: white;
+  background-color: #ebebeb;
   color: black;
   border: 2px solid brown;
   padding: 5px;
