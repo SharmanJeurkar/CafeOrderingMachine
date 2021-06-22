@@ -1,0 +1,30 @@
+body{
+	font-size: 20px;
+	background-image:url(img/Cafe_Img.png);
+	color: yellow;
+}
+
+div{
+	color: white;
+	font-size: 40px;
+	font-style: inherit;
+}
+
+p{
+    width: 300px;
+    padding: 50px;
+    margin-left: 300px;
+  	color: yellow;
+	font-size: 20px;
+	font-style: normal;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid brown;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
