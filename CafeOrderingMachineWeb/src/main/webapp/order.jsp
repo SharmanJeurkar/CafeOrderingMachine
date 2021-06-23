@@ -5,7 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Order Page</title>
-<link rel="stylesheet" href="order.css">
+<link rel="stylesheet" href="css/order.css">
 </head>
 <body>
 
