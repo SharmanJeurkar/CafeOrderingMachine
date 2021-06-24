@@ -1,6 +1,6 @@
 body{
 	font-size: 20px;
-	background-image:url(img/Cafe_Img.png);
+	background-image:url("img/Cafe_Img.png");
 	color: yellow;
 }
 
