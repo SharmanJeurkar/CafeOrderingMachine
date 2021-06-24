@@ -53,6 +53,7 @@ out.print("</table> </body> </html>");
 %>
 
 <br>
+<img src="css/img/Cafe.jpg" />
 <a href="Thanks.html">Confirm Order</a>
 </body>
 </html>
