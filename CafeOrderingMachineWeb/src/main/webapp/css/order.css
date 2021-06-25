@@ -16,10 +16,10 @@ body {
 
 .title {
   position: relative;
-  bottom: 80px; 
   text-align: center;
   font-size: 25px;
- }
+  bottom: 80px; 
+}
 
 .beverages {
   position: absolute;
@@ -65,15 +65,15 @@ body {
   background-color: grey; 
 }
 
-.button{
+.button {
   background-color: grey;
   position: relative;
-  left: 30%;	
   border: solid;
   color: white;
   padding: 2px;
   height: 22px;
   text-decoration: none;
-  display: inline-block;
   font-size: 10px;	
+  display: inline-block;
+  left: 30%;
 }
