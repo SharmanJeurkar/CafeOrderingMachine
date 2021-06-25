@@ -1,85 +1,79 @@
-body{
-	font-size: 15px;
+body {
+  font-size: 15px;
 }
-.menu_card{
-	font-size: 20px;
-	position: fixed;
-	top :270px;
-	left : 0px;
-	width: 700px;
-	height: 50px;
-	border: 5px solid maroon;
-	background-color: orange;
-    padding: 50px;
-    margin: 20px;
-}
-
-.title{
-	position: relative;
-    bottom: 80px; 
-   	text-align: center;
-    font-size: 25px;
-     
-  }
-.beverages{
-	position: absolute;
-	top : 30px;
-	left : 30px;
-	
+.menu_card {
+  font-size: 20px;
+  position: fixed;
+  top :270px;
+  left: 0px;
+  width: 700px;
+  height: 50px;
+  border: 5px solid maroon;
+  background-color: orange;
+  padding: 50px;
+  margin: 20px;
 }
 
-.snacks{
-	position: absolute;
-	top : 30px;
-	left : 170px;
-	
+.title {
+  position: relative;
+  bottom: 80px; 
+  text-align: center;
+  font-size: 25px;
+ }
+.beverages {
+  position: absolute;
+  top : 30px;
+  left : 30px;
 }
 
-.starters{
-	position: absolute;
-	top : 30px;
-	left : 260px;
+.snacks {
+  position: absolute;
+  top : 30px;
+  left : 170px;
 }
 
-.main_menu{
-	position: absolute;
-	top : 30px;
-	left : 440px;
-	
+.starters {
+  position: absolute;
+  top : 30px;
+  left : 260px;
 }
 
-.dessert{
-	position: absolute;
-	top : 30px;
-	left : 650px;
-	
+.main_menu {
+  position: absolute;
+  top : 30px;
+  left : 440px;
 }
 
-.form{
-	position: absolute;
-	top: 30px;
-	left: 20%;
-	border: 2px solid black;
-	padding-left: 7px;
-	width: 300px;
-	height: 245px;
-	font-family: inherit;
-	color: white;
-	text-align: centre;
-	background-color: grey; 
+.dessert {
+  position: absolute;
+  top : 30px;
+  left : 650px;	
+}
+
+.form {
+  position: absolute;
+  top: 30px;
+  left: 20%;
+  border: 2px solid black;
+  padding-left: 7px;
+  width: 300px;
+  height: 245px;
+  font-family: inherit;
+  color: white;
+  text-align: centre;
+  background-color: grey; 
 }
 
 .button{
-	
-	background-color: grey;
-	position : relative;
-	left: 30%;	
-	border: solid;
-	color: white;
-	padding: 2px;
-	height: 22px;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 10px;
+  background-color: grey;
+  position : relative;
+  left: 30%;	
+  border: solid;
+  color: white;
+  padding: 2px;
+  height: 22px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
 	
 }
