@@ -1,3 +1,36 @@
-table th, td{
-	border: 1px solid black;
+body {
+  font-size:20px; 
+}
+
+table th, td {
+  font-size:15px;
+  width: 200px;
+  text-align: centre;
+  text-decoration: underline;
+  border: 1px solid black;
+} 
+table {
+  margin-top: 30px;
+  margin-left:10%;
+  padding: 2px;
+ border: 2px dashed black;
+}
+
+a:link, 
+a:visited {
+  background-color: #ebebeb;
+  color: black;
+  border: 2px solid brown;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 10%;
+  text-align: center;
+  display: block;
 }
