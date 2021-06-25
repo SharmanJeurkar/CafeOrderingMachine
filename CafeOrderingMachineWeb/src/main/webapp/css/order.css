@@ -18,7 +18,7 @@ body {
   position: relative;
   text-align: center;
   font-size: 25px;
-  bottom: 80px; 
+  bottom: 80px;
 }
 
 .beverages {
@@ -42,8 +42,7 @@ body {
 .main_menu {
   position: absolute;
   top: 30px;
-  left: 440px;
-}
+  left: 440px;}
 
 .dessert {
   position: absolute;
