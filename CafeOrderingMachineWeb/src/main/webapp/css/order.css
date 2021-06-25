@@ -1,11 +1,11 @@
 body {
   font-size: 15px;
 }
+
 .menu_card {
   font-size: 20px;
   position: fixed;
-  top :270px;
-  left: 0px;
+  top: 270px;
   width: 700px;
   height: 50px;
   border: 5px solid maroon;
@@ -20,34 +20,35 @@ body {
   text-align: center;
   font-size: 25px;
  }
+
 .beverages {
   position: absolute;
-  top : 30px;
-  left : 30px;
+  top: 30px;
+  left: 30px;
 }
 
 .snacks {
   position: absolute;
-  top : 30px;
-  left : 170px;
+  top: 30px;
+  left: 170px;
 }
 
 .starters {
   position: absolute;
-  top : 30px;
-  left : 260px;
+  top: 30px;
+  left: 260px;
 }
 
 .main_menu {
   position: absolute;
-  top : 30px;
-  left : 440px;
+  top: 30px;
+  left: 440px;
 }
 
 .dessert {
   position: absolute;
-  top : 30px;
-  left : 650px;	
+  top: 30px;
+  left: 650px;	
 }
 
 .form {
@@ -66,7 +67,7 @@ body {
 
 .button{
   background-color: grey;
-  position : relative;
+  position: relative;
   left: 30%;	
   border: solid;
   color: white;
