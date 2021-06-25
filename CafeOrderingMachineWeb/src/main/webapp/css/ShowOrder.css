@@ -2,7 +2,8 @@ body {
   font-size:20px; 
 }
 
-table th, td {
+table th,
+td {
   font-size:15px;
   width: 200px;
   text-align: centre;
