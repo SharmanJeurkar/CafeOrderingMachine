@@ -47,7 +47,7 @@ body {
 .dessert {
   position: absolute;
   top: 30px;
-  left: 650px;	
+  left: 650px;
 }
 
 .form {
@@ -61,7 +61,7 @@ body {
   font-family: inherit;
   color: white;
   text-align: centre;
-  background-color: grey; 
+  background-color: grey;
 }
 
 .button {
