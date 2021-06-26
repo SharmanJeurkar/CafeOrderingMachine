@@ -13,12 +13,12 @@ Order you dishes from below  menu.
 
 <br>
 
-<a href="MenuJsps/Beverages.jsp">Beverages</a><br>
-<a href="MenuJsps/Snacks.jsp">Snacks</a><br>
-<a href="MenuJsps/Starters.jsp">Starters</a><br>
-<a href="MenuJsps/Main_Menu.jsp">Main Menu</a><br>
-<a href="MenuJsps/Rice.jsp">Rice</a><br>
-<a href="MenuJsps/Desserts.jsp">Desserts</a><br>
+<a href="MenuJsps/Beverages.jsp">Beverages</a><br><br>
+<a href="MenuJsps/Snacks.jsp">Snacks</a><br><br>
+<a href="MenuJsps/Starters.jsp">Starters</a><br><br>
+<a href="MenuJsps/Main_Menu.jsp">Main Menu</a><br><br>
+<a href="MenuJsps/Rice.jsp">Rice</a><br><br>
+<a href="MenuJsps/Desserts.jsp">Desserts</a><br><br>
 
 </body>
 </html>
