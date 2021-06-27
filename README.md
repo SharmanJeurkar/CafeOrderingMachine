@@ -5,4 +5,4 @@
  
  
 
-This is complete java project of a cafe inventory. 
+This is complete java project of a cafe inventory. This project is created by Sharman Jeurkar.
