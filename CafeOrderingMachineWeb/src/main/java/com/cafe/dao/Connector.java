@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class Connector {
-	
+    Connection conn=null;
     public static Connection connect(){
         String url="jdbc:mysql://localhost:3306/CafeOrderWeb";
         String user="Sharman";
