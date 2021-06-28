@@ -25,16 +25,15 @@ public class Desserts extends HttpServlet {
 			String des_item3=request.getParameter("des_item3");
 			String des_item4=request.getParameter("des_item4");
 			String des_item5=request.getParameter("des_item5");
-			int order_number=0;
-			order_number=+1;
 			
-			String query="create table des_order"+order_number+"(item_1 varchar(20), item_2 varchar(20), item_3 varchar(20), item_4 varchar(20), item_5 varchar(20))";
-			String sql="insert into  des_order"+order_number+" values('"+des_item1+"', '"+des_item2+"', '"+des_item3+"', '"+des_item4+"', '"+des_item5+"')";	
+			
+			
+			String sql="insert into  des_order values('"+des_item1+"', '"+des_item2+"', '"+des_item3+"', '"+des_item4+"', '"+des_item5+"')";	
 			try {
 				Connection con=Connector.connect();
-				PreparedStatement pst=con.prepareStatement(query);
+				
 				PreparedStatement ps=con.prepareStatement(sql);
-				pst.executeUpdate();
+			
 				ps.executeUpdate();
 				RequestDispatcher red=request.getRequestDispatcher("ShowOrder.jsp");
 				
