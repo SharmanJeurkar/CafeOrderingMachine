@@ -23,16 +23,13 @@ public class Starters extends HttpServlet {
 		String str_item3=request.getParameter("str_item3");
 		String str_item4=request.getParameter("str_item4");
 		String str_item5=request.getParameter("str_item5");
-		int order_number=0;
-		order_number=+1;
 		
-		String query="create table str_order"+order_number+"(item_1 varchar(20), item_2 varchar(20), item_3 varchar(20), item_4 varchar(20), item_5 varchar(20))";
-		String sql="insert into  str_order"+order_number+" values('"+str_item1+"', '"+str_item2+"', '"+str_item3+"', '"+str_item4+"', '"+str_item5+"')";	
+		String sql="insert into  str_order values('"+str_item1+"', '"+str_item2+"', '"+str_item3+"', '"+str_item4+"', '"+str_item5+"')";	
 		try {
 			Connection con=Connector.connect();
-			PreparedStatement pst=con.prepareStatement(query);
+			
 			PreparedStatement ps=con.prepareStatement(sql);
-			pst.executeUpdate();
+			
 			ps.executeUpdate();
 			RequestDispatcher red=request.getRequestDispatcher("ShowOrder.jsp");
 			
