@@ -24,16 +24,13 @@ public class Rice extends HttpServlet {
 		String rice_item3=request.getParameter("rice_item3");
 		String rice_item4=request.getParameter("rice_item4");
 		String rice_item5=request.getParameter("rice_item5");
-		int order_number=0;
-		order_number=+1;
 		
-		String query="create table rice_order"+order_number+"(item_1 varchar(20), item_2 varchar(20), item_3 varchar(20), item_4 varchar(20), item_5 varchar(20))";
-		String sql="insert into  rice_order"+order_number+" values('"+rice_item1+"', '"+rice_item2+"', '"+rice_item3+"', '"+rice_item4+"', '"+rice_item5+"')";	
+		String sql="insert into  rice_order values('"+rice_item1+"', '"+rice_item2+"', '"+rice_item3+"', '"+rice_item4+"', '"+rice_item5+"')";	
 		try {
 			Connection con=Connector.connect();
-			PreparedStatement pst=con.prepareStatement(query);
+			
 			PreparedStatement ps=con.prepareStatement(sql);
-			pst.executeUpdate();
+			
 			ps.executeUpdate();
 			RequestDispatcher red=request.getRequestDispatcher("ShowOrder.jsp");
 			
