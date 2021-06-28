@@ -24,16 +24,15 @@ public class Main_menu extends HttpServlet {
 		String mm_item3=request.getParameter("mm_item3");
 		String mm_item4=request.getParameter("mm_item4");
 		String mm_item5=request.getParameter("mm_item5");
-		int order_number=0;
-		order_number=+1;
 		
-		String query="create table mm_order"+order_number+"(item_1 varchar(20), item_2 varchar(20), item_3 varchar(20), item_4 varchar(20), item_5 varchar(20))";
-		String sql="insert into  mm_order"+order_number+" values('"+mm_item1+"', '"+mm_item2+"', '"+mm_item3+"', '"+mm_item4+"', '"+mm_item5+"')";	
+		
+		
+		String sql="insert into  mm_order values('"+mm_item1+"', '"+mm_item2+"', '"+mm_item3+"', '"+mm_item4+"', '"+mm_item5+"')";	
 		try {
 			Connection con=Connector.connect();
-			PreparedStatement pst=con.prepareStatement(query);
+			
 			PreparedStatement ps=con.prepareStatement(sql);
-			pst.executeUpdate();
+			
 			ps.executeUpdate();
 			RequestDispatcher red=request.getRequestDispatcher("ShowOrder.jsp");
 			
