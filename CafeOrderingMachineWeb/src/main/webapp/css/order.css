@@ -4,10 +4,11 @@ body {
 
 a:link,
 a:visited {
+  font-size: 20px;	
   background-color: #ebebeb;
   color: black;
-  border: 2px solid brown;
-  padding: 5px;
+  border: 1px solid brown;
+  padding: 2px; 
   text-align: center;
   text-decoration: none;
   display: inline-block;
