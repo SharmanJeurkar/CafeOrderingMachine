@@ -55,163 +55,105 @@ String des_item5=(String)request.getAttribute("item5");
 
 //beverages
 if(bev_item1 !=null &&  bev_item1 !="") 
-	out.println("<tr><td>");
-	out.println(bev_item1);
-	out.println("</tr></td>");
-	
+	out.println("<tr><td>"+bev_item1+"</tr></td>");
+		
 if(bev_item2 !=null &&  bev_item2 !="")
-	out.println("<tr><td>");
-	out.println(bev_item2);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+bev_item2+"</tr></td>");
 
 if(bev_item3 !=null && bev_item3 !="") 
-	out.println("<tr><td>");
-	out.println(bev_item3);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+bev_item3+"</tr></td>");
 
 if(bev_item4 !=null && bev_item4 !="") 
-	out.println("<tr><td>");
-	out.println(bev_item4);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+bev_item4+"</tr></td>");
 
 if(bev_item5!=null && bev_item5 !="") 
-	out.println("<tr><td>");
-	out.println(bev_item5);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+bev_item5+"</tr></td>");
 	
 	
 //snacks	
 if(snk_item1 !=null &&  snk_item1 !="") 
-	out.println("<tr><td>");
-	out.println(snk_item1);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+snk_item1+"</tr></td>");
 	
 if(snk_item2 !=null &&  snk_item2 !="")
-	out.println("<tr><td>");
-	out.println(snk_item2);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+snk_item2+"</tr></td>");
 
 if(snk_item3 !=null && snk_item3 !="") 
-	out.println("<tr><td>");
-	out.println(snk_item3);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+snk_item3+"</tr></td>");
 
 if(snk_item4 !=null && snk_item4 !="") 
-	out.println("<tr><td>");
-	out.println(snk_item4);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+snk_item4+"</tr></td>");
 
 if(snk_item5!=null && snk_item5 !="") 
-	out.println("<tr><td>");
-	out.println(snk_item5);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+snk_item5+"</tr></td>");
 	
 	
 //starters	
 if(str_item1 !=null &&  str_item1 !="") 
-	out.println("<tr><td>");
-	out.println(str_item1);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+str_item1+"</tr></td>");
 	
 if(str_item2 !=null &&  str_item2 !="")
-	out.println("<tr><td>");
-	out.println(str_item2);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+str_item2+"</tr></td>");
 
 if(str_item3 !=null && str_item3 !="") 
-	out.println("<tr><td>");
-	out.println(str_item3);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+str_item3+"</tr></td>");
 
 if(str_item4 !=null && str_item4 !="") 
-	out.println("<tr><td>");
-	out.println(str_item4);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+str_item4+"</tr></td>");
 
 if(str_item5!=null && str_item5 !="") 
-	out.println("<tr><td>");
-	out.println(str_item5);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+str_item5+"</tr></td>");
 	
 	
 //Main Menu	
 if(mm_item1 !=null &&  mm_item1 !="") 
-	out.println("<tr><td>");
-	out.println(mm_item1);
-	out.println("</tr></td>");
-	
+	out.println("<tr><td>"+mm_item1+"</tr></td>");
+
 if(mm_item2 !=null &&  mm_item2 !="")
-	out.println("<tr><td>");
-	out.println(mm_item2);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+mm_item2+"</tr></td>");
 
 if(mm_item3 !=null && mm_item3 !="") 
-	out.println("<tr><td>");
-	out.println(mm_item3);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+mm_item3+"</tr></td>");
 
 if(mm_item4 !=null && mm_item4 !="") 
-	out.println("<tr><td>");
-	out.println(mm_item4);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+mm_item4+"</tr></td>");
 
 if(mm_item5!=null && mm_item5 !="") 
-	out.println("<tr><td>");
-	out.println(mm_item5);
-	out.println("</tr></td>");	
+	out.println("<tr><td>"+mm_item5+"</tr></td>");
 	
 //Rice
 if(rice_item1 !=null &&  rice_item1 !="") 
-	out.println("<tr><td>");
-	out.println(rice_item1);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+rice_item1+"</tr></td>");
 	
 if(rice_item2 !=null &&  rice_item2 !="")
-	out.println("<tr><td>");
-	out.println(rice_item2);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+rice_item2+"</tr></td>");
 
 if(rice_item3 !=null && rice_item3 !="") 
-	out.println("<tr><td>");
-	out.println(rice_item3);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+rice_item3+"</tr></td>");
 
 if(rice_item4 !=null && rice_item4 !="") 
-	out.println("<tr><td>");
-	out.println(rice_item4);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+rice_item4+"</tr></td>");
 
 if(rice_item5!=null && rice_item5 !="") 
-	out.println("<tr><td>");
-	out.println(rice_item5);
-	out.println("</tr></td>");	
-out.print("</table> </body> </html>");
+	out.println("<tr><td>"+rice_item5+"</tr></td>");
+
 
 //Desserts
 if(des_item1 !=null &&  des_item1 !="") 
-	out.println("<tr><td>");
-	out.println(des_item1);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+des_item1+"</tr></td>");
 	
 if(des_item2 !=null &&  des_item2 !="")
-	out.println("<tr><td>");
-	out.println(des_item2);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+des_item2+"</tr></td>");
 
 if(des_item3 !=null && des_item3 !="") 
-	out.println("<tr><td>");
-	out.println(des_item3);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+des_item3+"</tr></td>");
 
 if(des_item4 !=null && des_item4 !="") 
-	out.println("<tr><td>");
-	out.println(des_item4);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+des_item5+"</tr></td>");
 
 if(des_item5!=null && des_item5 !="") 
-	out.println("<tr><td>");
-	out.println(des_item5);
-	out.println("</tr></td>");
+	out.println("<tr><td>"+des_item5+"</tr></td>");
+	
+out.print("</table> </body> </html>");	
 %>
 <img src="css/img/Cafe.jpg" />
 <br>
