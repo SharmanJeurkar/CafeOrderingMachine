@@ -105,7 +105,7 @@ public class DeleteTableTimer {
 		timer.schedule(task, 120000);
 	}
 	
-	public void Desserts() {
+	public void desserts() {
 		Timer timer=new Timer();
 		TimerTask task=new TimerTask() {
 			
