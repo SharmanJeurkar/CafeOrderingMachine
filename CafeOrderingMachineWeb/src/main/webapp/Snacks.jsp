@@ -16,11 +16,12 @@
 		Connection con=Connector.connect();
 		PreparedStatement pst=con.prepareStatement("select *  from Snacks");
 		ResultSet rs=pst.executeQuery();
-		out.println("<html><body><table border='1'><tr><td>Item_Name</td><td>Cost</td></tr>");		
+		out.println("<html><body><table border='1'><tr><td>Srno</td><td>Item_Name</td><td>Cost</td></tr>");		
+		
 		
 		while(rs.next())
 		{
-			out.println("<tr><td>"+rs.getString(1)+"</td><td>"+rs.getInt(2)+"</td></tr>");
+			out.println("<tr><td>"+rs.getInt(1)+"</td><td>"+rs.getString(2)+"</td><td>"+rs.getInt(3)+"</td></tr>");
 			
 		}
 			out.println("</table></body></html>");
@@ -28,6 +29,15 @@
 		System.out.println(e);
 	}
 	%>
+
+<form action="Snacks">
+	Enter item 1: <input type="text" name="snk_item1"><br><br>
+	Enter item 2: <input type="text" name="snk_item2"><br><br>
+	Enter item 3: <input type="text" name="snk_item3"><br><br>
+	Enter item 4: <input type="text" name="snk_item4"><br><br>
+	Enter item 5: <input type="text" name="snk_item5"><br><br>
+	<input type="submit" value="Submit Order"><br><br>
+</form>	
 
 </body>
 </html>
