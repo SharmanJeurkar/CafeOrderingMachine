@@ -1,15 +1,16 @@
 package com.cafe.order;
 
 import java.io.IOException;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.cafe.dao.Connector;
 
@@ -35,15 +36,16 @@ public class Desserts extends HttpServlet {
 				PreparedStatement ps=con.prepareStatement(sql);
 			
 				ps.executeUpdate();
-				RequestDispatcher red=request.getRequestDispatcher("ShowOrder.jsp");
+				HttpSession session= request.getSession();
 				
-				request.setAttribute("des_item1", des_item1);
-				request.setAttribute("des_item2", des_item2);
-				request.setAttribute("des_item3", des_item3);
-				request.setAttribute("des_item4", des_item4);
+				session.setAttribute("des_item1", des_item1);
+				session.setAttribute("des_item2", des_item2);
+				session.setAttribute("des_item3", des_item3);
+				session.setAttribute("des_item4", des_item4);
 				request.setAttribute("des_item5", des_item5);
-				red.forward(request, response);
 				
+				
+				response.sendRedirect("ShowOrder.jsp");
 			}catch(Exception e) {
 				System.out.println(e);
 			}
