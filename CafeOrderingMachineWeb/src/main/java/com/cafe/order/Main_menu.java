@@ -14,8 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 import com.cafe.dao.Connector;
 
 
-@WebServlet("/Main_menu")
-public class Main_menu extends HttpServlet {
+@WebServlet("/MainMenu")
+public class MainMenu extends HttpServlet {
 	private static final long serialVersionUID = 1L;
      
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
