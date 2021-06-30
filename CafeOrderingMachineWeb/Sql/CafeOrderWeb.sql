@@ -1,5 +1,4 @@
 create schema CafeOrderWeb;
-Use CafeOrderWeb;
 
 create table Beverages(Item_Name varchar(20), Cost int);
 create table Snacks(Item_Name varchar(20), Cost int);
