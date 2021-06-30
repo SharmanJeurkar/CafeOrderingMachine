@@ -25,7 +25,7 @@ public class DeleteTableTimer {
 		timer.schedule(task, 120000);
 	}
 	
-	public void Snacks() {
+	public void snacks() {
 		Timer timer=new Timer();
 		TimerTask task=new TimerTask() {
 			
@@ -45,7 +45,7 @@ public class DeleteTableTimer {
 		timer.schedule(task, 120000);
 	}
 	
-	public void Stareters() {
+	public void stareters() {
 		Timer timer=new Timer();
 		TimerTask task=new TimerTask() {
 			
@@ -65,7 +65,7 @@ public class DeleteTableTimer {
 		timer.schedule(task, 120000);
 	}
 	
-	public void MainMenu() {
+	public void mainMenu() {
 		Timer timer=new Timer();
 		TimerTask task=new TimerTask() {
 			
@@ -85,7 +85,7 @@ public class DeleteTableTimer {
 		timer.schedule(task, 120000);
 	}
 	
-	public void Rice() {
+	public void rice() {
 		Timer timer=new Timer();
 		TimerTask task=new TimerTask() {
 			
