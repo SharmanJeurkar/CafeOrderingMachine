@@ -9,16 +9,16 @@
 </head>
 <body>
 
-Order you dishes from below  menu.
+Choose one of the drop downs of the menu
 
 <br>
 
-<a href="MenuJsps/Beverages.jsp">Beverages</a><br><br>
-<a href="MenuJsps/Snacks.jsp">Snacks</a><br><br>
-<a href="MenuJsps/Starters.jsp">Starters</a><br><br>
-<a href="MenuJsps/Main_Menu.jsp">Main Menu</a><br><br>
-<a href="MenuJsps/Rice.jsp">Rice</a><br><br>
-<a href="MenuJsps/Desserts.jsp">Desserts</a><br><br>
+<a href="Beverages.jsp">Beverages</a><br><br>
+<a href="Snacks.jsp">Snacks</a><br><br>
+<a href=Starters.jsp">Starters</a><br><br>
+<a href="Main_Menu.jsp">Main Menu</a><br><br>
+<a href="Rice.jsp">Rice</a><br><br>
+<a href="Desserts.jsp">Desserts</a><br><br>
 
 </body>
 </html>
