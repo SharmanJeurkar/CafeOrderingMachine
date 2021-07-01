@@ -14,7 +14,7 @@ public class DeleteTableTimer {
 				try {
 					Connection con=Connector.connect();
 					PreparedStatement pst=con.prepareStatement("drop table bev_order");
-					System.out.println("table dropped.....");
+					
 					pst.executeUpdate();
 				  }catch(Exception e){
 					System.out.println(e);
@@ -22,7 +22,7 @@ public class DeleteTableTimer {
 				
 			}
 		};
-		timer.schedule(task, 120000);
+		timer.schedule(task, 3600000);
 	}
 	
 	public void snacks() {
@@ -34,7 +34,7 @@ public class DeleteTableTimer {
 				try {
 					Connection con=Connector.connect();
 					PreparedStatement pst=con.prepareStatement("drop table snk_order");
-					System.out.println("table dropped.....");
+					
 					pst.executeUpdate();
 				  }catch(Exception e){
 					System.out.println(e);
@@ -42,7 +42,7 @@ public class DeleteTableTimer {
 				
 			}
 		};
-		timer.schedule(task, 120000);
+		timer.schedule(task, 3600000);
 	}
 	
 	public void stareters() {
@@ -54,7 +54,7 @@ public class DeleteTableTimer {
 				try {
 					Connection con=Connector.connect();
 					PreparedStatement pst=con.prepareStatement("drop table str_order");
-					System.out.println("table dropped.....");
+					
 					pst.executeUpdate();
 				  }catch(Exception e){
 					System.out.println(e);
@@ -62,7 +62,7 @@ public class DeleteTableTimer {
 				
 			}
 		};
-		timer.schedule(task, 120000);
+		timer.schedule(task, 3600000);
 	}
 	
 	public void mainMenu() {
@@ -74,7 +74,7 @@ public class DeleteTableTimer {
 				try {
 					Connection con=Connector.connect();
 					PreparedStatement pst=con.prepareStatement("drop table mm_order");
-					System.out.println("table dropped.....");
+					
 					pst.executeUpdate();
 				  }catch(Exception e){
 					System.out.println(e);
@@ -82,7 +82,7 @@ public class DeleteTableTimer {
 				
 			}
 		};
-		timer.schedule(task, 120000);
+		timer.schedule(task, 3600000);
 	}
 	
 	public void rice() {
@@ -94,7 +94,7 @@ public class DeleteTableTimer {
 				try {
 					Connection con=Connector.connect();
 					PreparedStatement pst=con.prepareStatement("drop table rice_order");
-					System.out.println("table dropped.....");
+					
 					pst.executeUpdate();
 				  }catch(Exception e){
 					System.out.println(e);
@@ -102,7 +102,7 @@ public class DeleteTableTimer {
 				
 			}
 		};
-		timer.schedule(task, 120000);
+		timer.schedule(task, 3600000);
 	}
 	
 	public void desserts() {
@@ -114,7 +114,7 @@ public class DeleteTableTimer {
 				try {
 					Connection con=Connector.connect();
 					PreparedStatement pst=con.prepareStatement("drop table des_order");
-					System.out.println("table dropped.....");
+					
 					pst.executeUpdate();
 				  }catch(Exception e){
 					System.out.println(e);
@@ -122,7 +122,7 @@ public class DeleteTableTimer {
 				
 			}
 		};
-		timer.schedule(task, 120000);
+		timer.schedule(task, 3600000);
 	}
 	
 }
